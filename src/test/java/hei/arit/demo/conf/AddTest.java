@@ -6,6 +6,7 @@ class AddTest {
   @Test
   void testNumber() {
     AddNumbersController controller = new AddNumbersController();
+    AddNumbersService service = new AddNumbersService();
     assertEquals(3, controller.addNumbers(1, 2));
   }
 }

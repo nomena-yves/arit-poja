@@ -8,6 +8,6 @@ class SubstractTest {
 
   @Test
   void substractTest() {
-    assertEquals(2, controller.substractNumbers(5, 3));
+    assertEquals(2, controller.difference(5, 3));
   }
 }
