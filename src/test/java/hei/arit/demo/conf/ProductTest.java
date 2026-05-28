@@ -1,5 +1,7 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import hei.arit.demo.ProductController;
+import hei.arit.demo.ProductService;
 import org.junit.jupiter.api.Test;
 
 public class ProductTest {

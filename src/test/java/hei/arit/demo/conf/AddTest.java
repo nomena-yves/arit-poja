@@ -1,5 +1,7 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import hei.arit.demo.AddNumbersController;
+import hei.arit.demo.AddNumbersService;
 import org.junit.jupiter.api.Test;
 
 class AddTest {

@@ -1,5 +1,7 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import hei.arit.demo.DivideController;
+import hei.arit.demo.DivideService;
 import org.junit.jupiter.api.Test;
 
 public class DivideTest {
