@@ -6,7 +6,7 @@ public class DivideController {
   DivideService service;
 
   @GetMapping("/divid")
-  public divideDouble(double a, double b) {
+  public double divideDouble(double a, double b) {
     return service.divideNumbers(a, b);
   }
 }
