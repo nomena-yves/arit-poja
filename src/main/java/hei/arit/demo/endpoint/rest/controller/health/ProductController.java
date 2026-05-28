@@ -6,7 +6,7 @@ public class ProductController {
   ProductNumbers service;
 
   @GetMapping("/multi")
-  public multiplyNumbers(int a, int b) {
+  public int multiplyNumbers(int a, int b) {
     return service.products(a, b);
   }
 }
