@@ -2,7 +2,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class ProductNumbers {
-  public int products(int a, int b) {
+  public int products(Integer a, Integer b) {
     if (a == null || b == null) {
       throw new IllegalArgumentExeption("a or b is invalid");
     }

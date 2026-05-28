@@ -4,7 +4,7 @@ import org.springframework.stereotype.Service;
 public class DivideService {
   public double divideNumbers(double a, double b) {
     if (b == 0) {
-      throw new IllegalArgumentExeption("b is invalid");
+      throw new IllegalArgumentException("b is invalid");
     }
     double result = a / b;
     return result;
