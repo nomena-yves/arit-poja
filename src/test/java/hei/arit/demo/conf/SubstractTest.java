@@ -2,8 +2,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-public class SubstractTest {
-  SubstractController controller;
+class SubstractTest {
+
+  SubstractController controller = new SubstractController();
 
   @Test
   void substractTest() {
