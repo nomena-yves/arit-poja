@@ -1,6 +1,6 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import hei.arit.demo.SubstractController;
+import hei.arit.demo.endpoint.rest.controller.health.SubstractController;
 import org.junit.jupiter.api.Test;
 
 class SubstractTest {
