@@ -4,7 +4,7 @@ public class SubstractController {
   SubstractService service;
 
   @GetMapping("/sub")
-  public int difference(int a, int b) {
+  public Integer difference(Integer a, Integer b) {
     return service.substractNumbers(a, b);
   }
 }
