@@ -1,3 +1,5 @@
+package hei.arit.demo.services;
+
 import org.springframework.stereotype.Service;
 
 @Service

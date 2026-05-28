@@ -1,3 +1,5 @@
+package hei.arit.demo.conf;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import hei.arit.demo.Services.AddNumbersService;
