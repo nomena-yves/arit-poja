@@ -2,7 +2,7 @@ package hei.arit.demo.conf;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import hei.arit.demo.endpoint.rest.controller.health.DivideController;
+import hei.arit.demo.endpoint.rest.DivideController;
 import hei.arit.demo.services.DivideService;
 import org.junit.jupiter.api.Test;
 
