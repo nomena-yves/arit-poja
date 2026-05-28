@@ -5,7 +5,8 @@ import org.junit.jupiter.api.Test;
 public class ProductTest {
   @Test
   void TestProduct() {
-    ProductController products = new ProductController();
+    ProductService service = new ProductService();
+    ProductController products = new ProductController(service);
     assertEquals(6, products.multiplyNumbers(2, 3));
   }
 }

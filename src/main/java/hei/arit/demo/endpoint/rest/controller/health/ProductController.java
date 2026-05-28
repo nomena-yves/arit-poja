@@ -3,7 +3,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ProductController {
-  ProductService service;
+  public ProductService service;
 
   @GetMapping("/multi")
   public int multiplyNumbers(int a, int b) {

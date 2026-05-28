@@ -3,7 +3,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
 public class DivideTest {
-  DivideController controller = new DivideController();
+  DivideService service = new DivideService();
+  DivideController controller = new DivideController(service);
 
   @Test
   void divideTest() {

@@ -4,7 +4,8 @@ import org.junit.jupiter.api.Test;
 
 class SubstractTest {
 
-  SubstractController controller = new SubstractController();
+  ProductService service = new ProductService();
+  public SubstractController controller = new SubstractController(service);
 
   @Test
   void substractTest() {
