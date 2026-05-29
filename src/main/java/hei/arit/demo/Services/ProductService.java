@@ -1,4 +1,4 @@
-package hei.arit.demo.services;
+package hei.arit.demo.Services;
 
 import org.springframework.stereotype.Service;
 
