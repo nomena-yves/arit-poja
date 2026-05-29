@@ -4,11 +4,11 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class ProductService {
-  public int products(Integer a, Integer b) {
+  public Long products(Long a, Long b) {
     if (a == null || b == null) {
       throw new IllegalArgumentException("a or b is invalid");
     }
-    int result = a * b;
+    Long result = a * b;
     return result;
   }
 }

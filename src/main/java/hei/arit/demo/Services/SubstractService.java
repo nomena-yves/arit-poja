@@ -4,11 +4,11 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class SubstractService {
-  public Integer substractNumbers(Integer a, Integer b) {
+  public Long substractNumbers(Long a, Long b) {
     if (a == null || b == null) {
       throw new IllegalArgumentException("a or b is invalid");
     }
-    Integer result = a - b;
+    Long result = a - b;
     return result;
   }
 }

@@ -11,7 +11,7 @@ public class ProductController {
   public ProductService service;
 
   @GetMapping("/multi")
-  public int multiplyNumbers(int a, int b) {
+  public Long multiplyNumbers(Long a, Long b) {
     return service.products(a, b);
   }
 }

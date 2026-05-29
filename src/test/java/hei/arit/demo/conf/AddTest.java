@@ -11,6 +11,24 @@ class AddTest {
   void testNumber() {
     AddNumbersService service = new AddNumbersService();
     AddNumbersController controller = new AddNumbersController(service);
-    assertEquals(3, controller.addNumbers(1, 2));
+    assertEquals(3L, controller.addNumbers(1L, 2L));
+  }
+
+  void testCount() {
+    AddNumbersService service = new AddNumbersService();
+    AddNumbersController controller = new AddNumbersController(service);
+    assertEquals(4L, controller.addNumbers(2L, 2L));
+  }
+
+  void testNumberS() {
+    AddNumbersService service = new AddNumbersService();
+    AddNumbersController controller = new AddNumbersController(service);
+    assertEquals(2L, controller.addNumbers(-3L, 5L));
+  }
+
+  void testab() {
+    AddNumbersService service = new AddNumbersService();
+    AddNumbersController controller = new AddNumbersController(service);
+    assertEquals(4L, controller.addNumbers(-1L, 5L));
   }
 }

@@ -11,6 +11,34 @@ public class ProductTest {
   void TestProduct() {
     ProductService service = new ProductService();
     ProductController products = new ProductController(service);
-    assertEquals(6, products.multiplyNumbers(2, 3));
+    assertEquals(6L, products.multiplyNumbers(2L, 3L));
+  }
+
+  @Test
+  void TestProducts() {
+    ProductService service = new ProductService();
+    ProductController products = new ProductController(service);
+    assertEquals(3L, products.multiplyNumbers(9L, 3L));
+  }
+
+  @Test
+  void TestProductNumbers() {
+    ProductService service = new ProductService();
+    ProductController products = new ProductController(service);
+    assertEquals(0L, products.multiplyNumbers(0L, 2L));
+  }
+
+  @Test
+  void TestProductCount() {
+    ProductService service = new ProductService();
+    ProductController products = new ProductController(service);
+    assertEquals(-5L, products.multiplyNumbers(-25L, 5L));
+  }
+
+  @Test
+  void TestProductNumbrer() {
+    ProductService service = new ProductService();
+    ProductController products = new ProductController(service);
+    assertEquals(1L, products.multiplyNumbers(3L, 3L));
   }
 }

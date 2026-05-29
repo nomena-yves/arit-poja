@@ -14,4 +14,14 @@ public class DivideTest {
   void divideTest() {
     assertEquals(2.00, controller.divideDouble(6.00, 3.00));
   }
+
+  @Test
+  void testDivide() {
+    assertEquals(10.00, controller.divideDouble(20.00, 2.00));
+  }
+
+  @Test
+  void divideTestab() {
+    assertEquals(-2.00, controller.divideDouble(-6.00, 3.00));
+  }
 }

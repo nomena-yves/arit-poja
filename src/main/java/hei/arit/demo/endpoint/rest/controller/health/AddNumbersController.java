@@ -11,7 +11,7 @@ public class AddNumbersController {
   public final AddNumbersService addNumbersService;
 
   @GetMapping("/add")
-  public int addNumbers(int a, int b) {
+  public Long addNumbers(Long a, Long b) {
     return addNumbersService.sumNumbers(a, b);
   }
 }
